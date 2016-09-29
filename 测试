@@ -1,0 +1,2 @@
+com.ref.SoftCacheTest.java
+-Xms1024m -Xmx1024m -XX:+PrintGCDetails -XX:+PrintReferenceGC
