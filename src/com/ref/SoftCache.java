@@ -34,6 +34,9 @@ public class SoftCache<V extends Cacheable> {
 		cache.putIfAbsent(ref.getCacheKey(), entry);
 	}
 	
+	public V get(Object key){
+		return cache.get(key).get();
+	}
 	
 	private void cleanCache() {
 		Entry entry = null;
